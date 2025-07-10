@@ -40,6 +40,6 @@ public class User {
 
     @Override
     public String toString() {
-        return "\nUser" + "id =" +  id.substring(0, 8)  + ", имя" + username + ", пароль: " + password;
+        return "\nUser" + "id =" +  id.substring(0, 8)  + ", имя" + username + ", пароль: " + password; // Для вывода
     }
 }
